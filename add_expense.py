@@ -22,4 +22,4 @@ def new_expense():
         expenses[category].append((amount,date))
         print(f"{amount} spent on {category} on {date}")
     except ValueError:
-        print("Invalid amount. Try again!")
+        print("Invalid amount. Try again.")
