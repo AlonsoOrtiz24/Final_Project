@@ -1,6 +1,6 @@
-from add_and_remove import new_expense, remove_expense
-from Saving_and_loading import save_expenses, load_expenses
-from viewing_expenses import view_expenses
+from Program_Functions.add_and_remove import new_expense, remove_expense
+from Program_Functions.Saving_and_loading import save_expenses, load_expenses
+from Program_Functions.viewing_expenses import view_expenses
 # Load existing expenses at the start
 load_expenses()
 
