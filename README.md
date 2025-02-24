@@ -1,2 +1,2 @@
 # Final Project 
-## Expense tracking program
+## Expense-tracking program
