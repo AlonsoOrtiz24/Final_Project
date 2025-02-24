@@ -1,3 +1,4 @@
+from add_and_remove import expenses
 def view_expenses():
     """
     Displays all recorded expenses with dates
@@ -16,4 +17,3 @@ def view_expenses():
                 print(f"  - ${amount:.2f} on {date}")  # Shows amount and date
                 total_spending += amount
     print(f"\nTotal Spending: ${total_spending:.2f}")
-
