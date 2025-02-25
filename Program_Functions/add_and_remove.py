@@ -10,7 +10,7 @@ def new_expense():
     Function that asks the user to enter an expense, which will be added to a list
     :return:
     """
-    category = input("Enter a category (Food, Transport, Entertainment, Others): ").strip()
+    category = input("Enter a category (Food, Transport, Entertainment, Other): ").strip()
     if category not in expenses:
         print("Invalid Category introduced. Please try again")
         return
