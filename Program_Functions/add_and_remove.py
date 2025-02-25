@@ -20,7 +20,7 @@ def new_expense():
         date = input("Enter date (DD-MM)").strip()
 
         expenses[category].append((amount,date))
-        print(f"{amount} spent on {category} on {date}")
+        print(f"{amount:.2f} spent on {category} on {date}")
     except ValueError:
         print("Invalid amount. Try again!")
 
